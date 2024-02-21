@@ -1,0 +1,53 @@
+.cta-container {
+    background-image: url('../assets/hero-bg.jpg'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .cta-container h1 {
+    font-size: 3rem; 
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .cta-container p {
+    font-size: 1.5rem; 
+    color: #000;
+    margin-bottom: 20px;
+  }
+
+  .email-signup-form {
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .email-signup-form input[type="email"], .email-signup-form button {
+    height: 40px; /* Set a fixed height for both */
+    padding: 0 20px; /* Adjust padding as needed */
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .email-signup-form input[type="email"] {
+    border: 1px solid #ccc;
+  }
+  
+  .email-signup-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .email-signup-form button:hover {
+    background-color: #0056b3;
+  }

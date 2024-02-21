@@ -1,0 +1,66 @@
+.what-we-do {
+    display: flex;
+    flex-direction: column;
+    /* Ensure the title and container stack vertically */
+    align-items: center;
+    /* Center everything in this section */
+    padding: 50px 20px;
+}
+
+.section-title {
+    font-size: 3rem;
+    /* Large font size for the title */
+    margin-bottom: 30px;
+    /* Space between title and container */
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* Adjust spacing as needed */
+    align-items: center;
+    /* Vertically align items in the container */
+    max-width: 1200px;
+    /* Adjust based on your design */
+}
+
+.buttons-section,
+.info-section,
+.image-section {
+    flex: 1;
+    /* Each section takes equal width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center align the content of each section */
+}
+
+.buttons-section button, .email-signup-form button {
+    padding: 10px 20px;
+    font-size: 16px; /* Adjust based on your design */
+    background-color: #007bff; /* Example styling, adjust as needed */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer;
+    width: 200px; /* Ensure all buttons are the same width */
+    text-align: center;
+    margin-bottom: 15px; /* Space between buttons */
+  }
+  
+  .buttons-section button:hover, .email-signup-form button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+
+.info-section h2 {
+    margin-bottom: 20px;
+    /* Style your info section heading */
+}
+
+.image-section img {
+    max-width: 100%;
+    /* Ensure the image is responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+}

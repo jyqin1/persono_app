@@ -1,0 +1,50 @@
+.site-footer {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f0f0f0; /* Example background color, adjust as needed */
+  }
+  
+  .sleep-message, .subscribe-message {
+    font-size: 1.5rem; /* Large font size for messages */
+    margin: 20px 0; /* Spacing between elements */
+  }
+  
+  .footer-cta form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .footer-cta input[type="email"], .footer-cta button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust as needed */
+  }
+  
+  .footer-cta button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer-cta button:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin: 0 10px; /* Spacing between links */
+    color: #007bff; /* Example link color, adjust as needed */
+    font-size: 1rem; /* Adjust font size as needed */
+    text-decoration: none; /* Optional: removes underline from links */
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline; /* Optional: adds underline on hover for visual feedback */
+  }
+  
+  /* Add styles for your social media links/icons here */
+  
