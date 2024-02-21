@@ -1,22 +1,21 @@
 import React from 'react';
-// Import the logo image
-import logo from '../assets/logo-black.png'; // Adjust the path as necessary
+import '../index.css';
+
+import logo from '../assets/logo-black.png';
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-lg fixed top-0 left-0 w-full z-10">
+    <nav className="fixed top-0 left-0 w-full z-10 bg-white shadow-lg">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="flex justify-between">
-          <div className="flex space-x-4">
-            {/* Logo image */}
-            <a href="#" className="flex items-center py-5 px-2">
-              <img src={logo} alt="Persono logo" className="h-8 w-auto" /> {/* Adjust the size as needed */}
+        <div className="flex justify-between items-center">
+          <a href="#" className="flex items-center py-2 px-2">
+            <img src={logo} alt="Persono logo" className="h-10 w-auto" />
+          </a>
+
+          <div className="flex items-center space-x-1">
+            <a href="#" className="inline-flex items-center py-2 px-4 font-bold rounded transition-transform duration-300 bg-blue-200 hover:bg-blue-300 transform hover:scale-105 text-blue-800 hover:text-blue-900">
+              Join Waitlist
             </a>
-          </div>
-          
-          {/* Join Waitlist Button */}
-          <div className="hidden md:flex items-center space-x-1">
-            <a href="#" className="py-5 px-3 bg-blue-500 text-white rounded hover:bg-blue-400 transition duration-300">Join Waitlist</a>
           </div>
         </div>
       </div>
