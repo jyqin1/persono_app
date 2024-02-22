@@ -1,12 +1,12 @@
 .site-footer {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f0f0f0; /* Example background color, adjust as needed */
+    background-color: #ffffff;
   }
   
   .sleep-message, .subscribe-message {
-    font-size: 1.5rem; /* Large font size for messages */
-    margin: 20px 0; /* Spacing between elements */
+    font-size: 1.5rem; 
+    margin: 20px 0; 
   }
   
   .footer-cta form {
@@ -20,7 +20,7 @@
     padding: 10px 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px; /* Adjust as needed */
+    font-size: 16px; 
   }
   
   .footer-cta button {
@@ -36,15 +36,12 @@
   
   .social-media a {
     display: inline-block;
-    margin: 0 10px; /* Spacing between links */
-    color: #007bff; /* Example link color, adjust as needed */
-    font-size: 1rem; /* Adjust font size as needed */
-    text-decoration: none; /* Optional: removes underline from links */
+    margin: 0 10px; 
+    color: #007bff; 
+    font-size: 1rem;
+    text-decoration: none; 
   }
   
   .social-media a:hover {
-    text-decoration: underline; /* Optional: adds underline on hover for visual feedback */
+    text-decoration: underline; 
   }
-  
-  /* Add styles for your social media links/icons here */
-  

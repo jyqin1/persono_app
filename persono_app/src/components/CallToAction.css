@@ -1,53 +1,53 @@
 .cta-container {
-    background-image: url('../assets/hero-bg.jpg'); /* Ensure this path is correct */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-    padding: 100px 20px;
-  }
-  
-  .cta-container h1 {
-    font-size: 3rem; 
-    color: #000;
-    margin-bottom: 20px;
-  }
-  
-  .cta-container p {
-    font-size: 1.5rem; 
-    color: #000;
-    margin-bottom: 20px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 150px 20px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('../assets/hero-bg.jpg') no-repeat center center;
+  background-size: cover;
+}
 
-  .email-signup-form {
-    display: flex;
-    gap: 10px; 
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .email-signup-form input[type="email"], .email-signup-form button {
-    height: 40px; /* Set a fixed height for both */
-    padding: 0 20px; /* Adjust padding as needed */
-    font-size: 16px;
-    border-radius: 5px;
-  }
-  
-  .email-signup-form input[type="email"] {
-    border: 1px solid #ccc;
-  }
-  
-  .email-signup-form button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .email-signup-form button:hover {
-    background-color: #0056b3;
-  }
+.cta-container h1 {
+  font-size: 4rem;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.cta-container p {
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.email-signup-form {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.email-signup-form input[type="email"],
+.email-signup-form button {
+  height: 50px;
+  padding: 0 30px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.email-signup-form input[type="email"] {
+  border: 2px solid #ccc;
+}
+
+.email-signup-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.email-signup-form button:hover {
+  background-color: #0056b3;
+}
