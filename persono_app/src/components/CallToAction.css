@@ -1,31 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 .cta-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  text-align: center;
-  padding: 150px 20px;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('../assets/hero-bg.jpg') no-repeat center center;
-  background-size: cover;
+  text-align: left;
+  padding: 50px 20px;
+  position: relative;
+  background: linear-gradient(to right, #3798F8, #6140B8, #556268);
+}
+
+.cta-text {
+  flex: 1;
+  padding-right: 20px;
+  max-width: 800px;
+  z-index: 2;
+  padding-left: 100px;
+}
+
+.cta-video video {
+  position: relative;
+  z-index: 0;
+  max-width: 100%;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cta-video::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(55, 59, 68, 0.6), rgba(91, 94, 166, 0.6));
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.cta-video video {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: auto;
 }
 
 .cta-container h1 {
-  font-size: 4rem;
-  color: #000;
-  margin-bottom: 30px;
+  font-size: 4.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .cta-container p {
   font-size: 2rem;
-  color: #000;
+  color: #F5F5F5;
   margin-bottom: 30px;
+  max-width: 500px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .email-signup-form {
   display: flex;
   gap: 20px;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 30px;
 }
 
@@ -42,12 +86,38 @@
 }
 
 .email-signup-form button {
-  background-color: #007bff;
+  background-color: #3798F8;
   color: white;
-  border: none;
+  border: 2px solid #FFFFFF;
   cursor: pointer;
+  font-weight: bold;
+  padding: 0 30px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
-.email-signup-form button:hover {
-  background-color: #0056b3;
+.email-signup-form button::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 0.3s ease;
+  z-index: 0;
+}
+
+.email-signup-form button:hover::before {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.email-signup-form button span {
+  position: relative;
+  z-index: 1;
 }
