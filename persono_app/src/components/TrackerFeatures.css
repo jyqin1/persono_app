@@ -1,0 +1,19 @@
+.tracker-features {
+    text-align: center;
+  }
+  
+  .tracker-image {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintains aspect ratio */
+    margin-bottom: 20px; /* Adds some space below the image */
+  }
+  
+  /* Adjust the .feature class as needed to align with the new layout */
+  .feature {
+    margin-top: 20px;
+  }
+  
+  .cta-button {
+    margin-top: 20px;
+  }
+  

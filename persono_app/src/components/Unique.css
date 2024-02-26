@@ -1,0 +1,13 @@
+.unique-component {
+    text-align: center; /* Centers the text */
+    padding: 20px;
+  }
+  
+  .unique-chart {
+    width: 100%;
+    max-width: 600px; /* Adjust based on the size of your chart */
+    margin: 20px auto; /* Centers the chart horizontally */
+    display: block; /* This makes sure the image is treated as a block-level element, allowing margin auto to work */
+    border-radius: 8px; /* Optional: adds rounded corners for a softer look */
+  }
+  

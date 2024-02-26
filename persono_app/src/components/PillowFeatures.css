@@ -1,0 +1,22 @@
+/* PillowFeatures.css */
+.pillow-features {
+  text-align: center;
+}
+
+.features-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px; /* Added space below the image */
+}
+
+.pillow-image {
+  width: 100%;
+  max-width: 600px;
+}
+
+.feature-description {
+  position: absolute;
+  left: 100%;
+  width: 200px;
+  text-align: left;
+}

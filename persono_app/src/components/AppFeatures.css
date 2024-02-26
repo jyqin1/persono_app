@@ -1,0 +1,26 @@
+.app-features {
+    text-align: center;
+  }
+  
+  .app-feature-image {
+    width: 100%; /* Ensures images are responsive */
+    max-width: 200px; /* Adjust based on your layout needs */
+    margin: auto; /* Centers the image */
+    display: block; /* Ensures images are block elements */
+    margin-bottom: 20px; /* Space between the image and description */
+  }
+  
+  .feature {
+    margin-top: 40px; /* Space between features */
+  }
+  
+  .cta-button {
+    margin-top: 20px;
+    padding: 10px 20px; /* Adjust padding for better button size */
+    background-color: #007bff; /* Example button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor changes to pointer to indicate clickable */
+    font-size: 16px; /* Adjust based on your design preference */
+  }
