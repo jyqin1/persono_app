@@ -1,19 +1,79 @@
 .tracker-features {
-    text-align: center;
-  }
-  
-  .tracker-image {
-    max-width: 100%; /* Ensures the image is responsive */
-    height: auto; /* Maintains aspect ratio */
-    margin-bottom: 20px; /* Adds some space below the image */
-  }
-  
-  /* Adjust the .feature class as needed to align with the new layout */
-  .feature {
-    margin-top: 20px;
-  }
-  
-  .cta-button {
-    margin-top: 20px;
-  }
-  
+  text-align: center;
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tracker-features h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 25px;
+}
+
+.tracker-features p1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 0;
+  position: relative;
+}
+
+.tracker-features p1::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.comparison-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.text-container {
+  text-align: left;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  max-width: 250px;
+}
+
+.images-container {
+  display: flex;
+  align-items: center;
+  margin-left: -200px;
+}
+
+.tracker-image {
+  max-width: 650px;
+  height: auto;
+  margin-right: -200px;
+}
+
+.quarter-image {
+  max-width: 300px;
+  height: auto;
+}
+
+.comparison-description {
+  max-width: 200px;
+  text-align: left;
+  margin-right: -400px;
+}
+
+.feature {
+  margin-top: 20px;
+}
+
+.cta-button {
+  margin-top: 20px;
+}
