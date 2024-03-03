@@ -19,18 +19,6 @@ function TrackerFeatures() {
           <img src={quarterImage} alt="Quarter Size Comparison" className="quarter-image" />
         </div>
       </div>
-      
-      <div className="feature">
-        <h3>Built-In Convenience</h3>
-        <p>Seamlessly integrated into the pillow, our tracker monitors your sleep hassle-free.</p>
-      </div>
-      
-      <div className="feature">
-        <h3>Effortless Experience</h3>
-        <p>Forget wearing devices or charging batteries. Enjoy uninterrupted sleep night after night.</p>
-      </div>
-      
-      <button className="cta-button">Explore the Technology</button>
     </div>
   );
 }

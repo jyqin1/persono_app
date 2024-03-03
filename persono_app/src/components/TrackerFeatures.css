@@ -50,11 +50,11 @@
 .images-container {
   display: flex;
   align-items: center;
-  margin-left: -200px;
+  margin-left: -150px;
 }
 
 .tracker-image {
-  max-width: 650px;
+  max-width: 750px;
   height: auto;
   margin-right: -200px;
 }
