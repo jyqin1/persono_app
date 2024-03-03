@@ -32,10 +32,11 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin-left: -320px;
 }
 
 .pillow-image {
-  max-width: 650px;
+  max-width: 1000px;
   height: auto;
 }
 
@@ -44,11 +45,11 @@
   flex-direction: column;
   margin-left: 0px;
   position: relative;
-  top: -10px;
+  top: -60px;
 }
 
 .feature-description {
-  margin-top: 15px;
+  margin-top: 75px;
   text-align: left;
   max-width: 220px;
   position: relative;

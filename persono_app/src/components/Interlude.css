@@ -1,0 +1,12 @@
+.interlude-container {
+    margin-bottom:-45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interlude-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}

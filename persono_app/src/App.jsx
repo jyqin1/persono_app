@@ -8,6 +8,7 @@ import PillowFeatures from './components/PillowFeatures';
 import TrackerFeatures from './components/TrackerFeatures';
 import AppFeatures from './components/AppFeatures';
 import Unique from './components/Unique';
+import Interlude from './components/Interlude';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navbar />,
       <CallToAction />,
       <PillowFeatures />,
+      <Interlude />,
       <TrackerFeatures />,
       <AppFeatures />,
       <Unique />,
