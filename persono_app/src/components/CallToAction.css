@@ -43,7 +43,7 @@
 }
 
 .cta-container h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 700;
   letter-spacing: 1px;
   font-family: 'Montserrat', sans-serif;
@@ -52,7 +52,7 @@
 }
 
 .cta-container p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #F5F5F5;
   margin-bottom: 30px;
   max-width: 500px;
