@@ -42,13 +42,6 @@
   z-index: 1;
 }
 
-.cta-video video {
-  position: relative;
-  z-index: 0;
-  width: 100%;
-  height: auto;
-}
-
 .cta-container h1 {
   font-size: 4.5rem;
   font-weight: 700;
@@ -120,4 +113,39 @@
 .email-signup-form button span {
   position: relative;
   z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .cta-container {
+    flex-direction: column;
+    padding: 30px 15px;
+  }
+  
+  .cta-text {
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .cta-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .cta-container p {
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
+
+  .email-signup-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .email-signup-form input[type="email"],
+  .email-signup-form button {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
 }

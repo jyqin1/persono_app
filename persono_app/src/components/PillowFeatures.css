@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
 .pillow-features {
   text-align: center;
 }
@@ -84,4 +86,27 @@
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   border-right: 10px solid #333;
+}
+
+@media (max-width: 768px) {
+  .features-container {
+    margin-left: 0;
+    justify-content: space-around;
+  }
+
+  .descriptions-container {
+    top: 0;
+  }
+
+  .feature-description::before {
+    content: none; 
+  }
+
+  .feature-description {
+    margin-top: 30px; 
+  }
+
+  .pillow-image {
+    max-width: 100%; 
+  }
 }
