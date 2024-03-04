@@ -2,10 +2,22 @@
   text-align: center;
 }
 
+text {
+  font-size: 4rem;
+}
+
 .app-features h2 {
   font-size: 3rem;
   font-weight: bold;
   color: #333;
+}
+
+.app-features p1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 0;
+  position: relative;
 }
 
 .features-layout {
@@ -16,12 +28,17 @@
   padding: 20px;
 }
 
+.tab-buttons-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .tab-buttons {
   display: flex;
-  flex-direction: row;
+  position: relative;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 20px;
 }
 
 .tab-buttons button {
@@ -45,16 +62,72 @@
 
 .image-description-container {
   display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, #F5F5F5, #FFFFFF);
+  width: 110%;
+  box-sizing: border-box;
+  height: 638px;
+}
+
+.content-centering {
+  display: flex;
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  padding: 20px;
 }
 
 .app-feature-image {
   max-width: 500px;
   height: auto;
+  max-height: 100%;
+  margin-bottom: -38px;
 }
 
 .feature-description {
-  max-width: 220px;
+  max-width: 500px;
+}
+
+.divider-line {
+  width: 110%;
+  height: 2px;
+  background-color: black;
+  margin: 0 0;
+  opacity: 75%;
+}
+
+@media (max-width: 768px) {
+  text {
+    font-size: 2rem;
+  }
+
+  .divider-line {
+    height: 0;
+  }
+
+  .app-features h2,
+  .app-features p1,
+  .text-container,
+  .feature-description {
+    font-size: 1.5rem;
+  }
+
+  .tab-buttons button {
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+  .content-centering,
+  .image-description-container {
+    background-color: white;
+    margin-top: 200px;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 200px;
+  }
+
+  .divider-line {
+    width: 100%;
+  }
 }

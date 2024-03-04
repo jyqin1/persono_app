@@ -1,19 +1,19 @@
 import React from 'react';
-import '../index.css';
+import './Navbar.css'; 
 
 import logo from '../assets/logo-black.png';
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full z-10 bg-white shadow-lg">
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="flex justify-between items-center">
-          <a href="#" className="flex items-center py-2 px-2">
-            <img src={logo} alt="Persono logo" className="h-10 w-auto" />
+    <nav className="navbar">
+      <div className="navbar-container">
+        <div className="navbar-content">
+          <a href="#" className="logo-link">
+            <img src={logo} alt="Persono logo" className="logo" />
           </a>
 
-          <div className="flex items-center space-x-1">
-            <a href="#" className="inline-flex items-center py-2 px-4 font-bold rounded transition-transform duration-300 bg-blue-200 hover:bg-blue-300 transform hover:scale-105 text-blue-800 hover:text-blue-900">
+          <div className="waitlist-container">
+            <a href="#" className="waitlist-button">
               Join Waitlist
             </a>
           </div>

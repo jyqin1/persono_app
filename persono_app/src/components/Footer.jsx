@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; // Ensure you have this CSS file
+import './Footer.css'; 
 
 const Footer = () => {
     return (
@@ -18,7 +18,6 @@ const Footer = () => {
                 <a href="https://twitter.com/YourProfile" target="_blank" rel="noopener noreferrer">Twitter</a>
                 <a href="https://www.instagram.com/YourProfile" target="_blank" rel="noopener noreferrer">Instagram</a>
                 <a href="https://www.linkedin.com/in/YourProfile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                {/* Add more social media links as needed */}
             </div>
         </footer >
     );
