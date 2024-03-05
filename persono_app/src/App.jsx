@@ -9,6 +9,7 @@ import Unique from './components/Unique';
 import Interlude from './components/Interlude';
 import Interlude2 from './components/Interlude2';
 import Steps from './components/Steps';
+import MoreInfo from './components/MoreInfo';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Steps />,
       <Interlude2 />,
       <Unique />,
+      <MoreInfo />,
       <Footer />
     </div>
   );
