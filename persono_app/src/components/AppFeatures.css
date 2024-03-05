@@ -117,10 +117,13 @@ text {
   }
 
   .app-features h2,
-  .app-features p1,
   .text-container,
   .feature-description {
     font-size: 1.5rem;
+  }
+
+  .app-features p1 {
+    font-size: 1rem;
   }
 
   .tab-buttons button {

@@ -106,6 +106,10 @@
     margin-right: 0;
   }
 
+  .tracker-features p1 {
+    font-size: 1rem;
+  }
+
   .tracker-image {
     max-width: 100%;
     margin-right: 0;

@@ -64,6 +64,10 @@
         align-items: center; 
     }
 
+    .steps-subtitle {
+        font-size: 1rem !important;
+    }
+
     .step {
         margin-bottom: 30px; 
     }
