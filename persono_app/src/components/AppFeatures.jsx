@@ -63,14 +63,12 @@ function AppFeatures() {
             <button onClick={() => setActiveTab('tab3')} className={activeTab === 'tab3' ? 'active' : ''}>Daily Reflection</button>
           </div>
         </div>
-        <div className="divider-line"></div>
         <div className="image-description-container">
           <div className="content-centering">
             <img src={featureInfo[activeTab].img} alt="App Feature" className="app-feature-image" />
             <p className="feature-description">{featureInfo[activeTab].text}</p>
           </div>
         </div>
-        <div className="divider-line"></div>
       </div>
     </div>
   );

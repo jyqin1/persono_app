@@ -55,7 +55,6 @@ text {
 }
 
 .tab-buttons button.active {
-  font-weight: bold;
   color: #007bff;
   background-color: #e7e7e7;
 }
@@ -63,7 +62,6 @@ text {
 .image-description-container {
   display: flex;
   justify-content: center;
-  background: linear-gradient(to bottom, #F5F5F5, #FFFFFF);
   width: 110%;
   box-sizing: border-box;
   height: 638px;
@@ -88,21 +86,9 @@ text {
   max-width: 500px;
 }
 
-.divider-line {
-  width: 110%;
-  height: 2px;
-  background-color: black;
-  margin: 0 0;
-  opacity: 75%;
-}
-
 @media (max-width: 768px) {
   text {
     font-size: 2rem;
-  }
-
-  .divider-line {
-    height: 0;
   }
 
   .app-features h2,
