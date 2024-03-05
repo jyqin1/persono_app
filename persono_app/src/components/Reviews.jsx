@@ -1,11 +1,9 @@
-// Reviews.jsx
 import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './Reviews.css'; // Import the stylesheet
+import './Reviews.css';
 
-// placeholders
 const reviews = [
   { id: 1, content: "Review 1: Lorem ipsum dolor sit amet." },
   { id: 2, content: "Review 2: Consectetur adipiscing elit." },

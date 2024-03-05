@@ -9,15 +9,15 @@ const CommonQuestions = () => {
   };
 
   const questions = [
-    { 
-      question: "What are the specifications of Persono Smart Pillow?", 
-      answer: "Answer to this question..." 
+    {
+      question: "What are the specifications of Persono Smart Pillow?",
+      answer: "Answer to this question..."
     },
-    { 
-      question: "Which smartphones are compatible with Persono technology?", 
-      answer: "Answer to this question..." 
+    {
+      question: "Which smartphones are compatible with Persono technology?",
+      answer: "Answer to this question..."
     },
-    // otherq uestions here
+
   ];
 
   return (
