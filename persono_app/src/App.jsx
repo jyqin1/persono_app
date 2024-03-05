@@ -1,14 +1,14 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import CallToAction from './components/CallToAction';
-import WhatWeDo from './components/WhatWeDo';
-import DownloadApp from './components/DownloadApp';
 import Footer from './components/Footer';
 import PillowFeatures from './components/PillowFeatures';
 import TrackerFeatures from './components/TrackerFeatures';
 import AppFeatures from './components/AppFeatures';
 import Unique from './components/Unique';
 import Interlude from './components/Interlude';
+import Interlude2 from './components/Interlude2';
+import Steps from './components/Steps';
 
 function App() {
   return (
@@ -19,9 +19,9 @@ function App() {
       <Interlude />,
       <TrackerFeatures />,
       <AppFeatures />,
+      <Steps />,
+      <Interlude2 />,
       <Unique />,
-      <WhatWeDo />,
-      <DownloadApp />,
       <Footer />
     </div>
   );

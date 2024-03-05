@@ -1,0 +1,82 @@
+.steps-wrapper {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #F7E9DD;
+    margin-top: -64px;
+}
+
+.steps-header {
+    margin-bottom: 40px;
+}
+
+.steps-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #4E98F1;
+}
+
+.steps-subtitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 0;
+    position: relative;
+}
+
+.steps-container {
+    display: flex;
+    flex-direction: row; 
+    position: relative;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #F7E9DD;
+}
+
+.step {
+    text-align: center;
+}
+
+.step-icon {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.step-info {
+    margin-top: 10px;
+}
+
+.step-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.step-description {
+    font-size: 14px;
+    max-width: 250px;
+}
+
+@media (max-width: 768px) {
+    .steps-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .step {
+        margin-bottom: 30px; 
+    }
+
+    .step-icon {
+        width: 80px; 
+    }
+
+    .step-title, .step-description {
+        font-size: 16px; 
+    }
+
+    .steps-title, .steps-subtitle {
+        font-size: 2rem; 
+    }
+}

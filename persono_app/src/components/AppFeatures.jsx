@@ -11,44 +11,35 @@ function AppFeatures() {
     tab1: {
       img: appFeature1,
       text: (
-        <span>
-          <span style={{ fontWeight: 'bold', fontSize: '48px', color: '#4E98F1' }}>Our app assists you in comprehending your nights</span>
+        <div className="feature-text">
+          <span className="feature-text-bold">Our app assists you in comprehending your nights.</span>
           <br /><br />
-          <span style={{ fontSize: '22px', fontWeight: 'bold' }}>
-            Better sleep starts with understanding it:
-          </span>
-          {' '}
-          <span style={{ fontSize: '22px' }}>
-            Track your sleep, learn about your sleep habits and reach your sleep goals
-          </span>
-        </span>
+          <span>Better sleep starts with understanding it: Track your sleep, learn about your sleep habits and reach your sleep goals.</span>
+        </div>
       )
     },
     tab2: {
       img: appFeature2,
       text: (
-        <span>
-          <span style={{ fontWeight: 'bold', fontSize: '48px', color: '#4E98F1' }}>Discover the impact of sleep quality on your mood and energy levels</span>
+        <div className="feature-text">
+          <span className="feature-text-bold">Discover the impact of sleep quality on your mood and energy levels.</span>
           <br /><br />
-          <span style={{ fontSize: '22px' }}>
-            by simply monitoring how you feel when you wake up
-          </span>
-        </span>
+          <span>By simply monitoring how you feel when you wake up.</span>
+        </div>
       )
     },
     tab3: {
       img: appFeature3,
       text: (
-        <span>
-          <span style={{ fontWeight: 'bold', fontSize: '48px', color: '#4E98F1' }}>Uncover what is preventing you from enjoying a good night's sleep</span>
+        <div className="feature-text">
+          <span className="feature-text-bold">Uncover what is preventing you from enjoying a good night's sleep.</span>
           <br /><br />
-          <span style={{ fontSize: '22px' }}>
-            by identifying the specific factors that are impacting your sleep quality
-          </span>
-        </span>
+          <span>By identifying the specific factors that are impacting your sleep quality.</span>
+        </div>
       )
     }
   };
+
 
   return (
     <div className="app-features">
