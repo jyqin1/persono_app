@@ -81,7 +81,7 @@ text {
 .image-description-container {
   display: flex;
   justify-content: center;
-  width: 110%;
+  width: 100%;
   box-sizing: border-box;
   height: 638px;
 }
@@ -135,7 +135,7 @@ text {
     flex-direction: column;
     padding: 10px;
     width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
 
   .feature-text-bold {

@@ -1,9 +1,68 @@
 .more-info-carousel {
+    box-sizing: border-box;
     text-align: center;
+    padding-bottom: 50px !important;
 }
 
 .more-info-carousel h2 {
     font-size: 3rem;
     font-weight: bold;
     color: #333;
+}
+
+.slide-container {
+    height: 600px;
+    overflow: hidden;
+}
+
+.slick-dots {
+    padding-bottom: 50px !important;
+}
+
+.slick-slide {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-next {
+    right: 50px;
+}
+
+.slick-prev {
+    left: 50px;
+}
+
+@media (max-width: 768px) {
+    .more-info-carousel h2 {
+        font-size: 2rem;
+    }
+
+    .slide-container {
+        height: auto;
+        min-height: 300px;
+        padding: 20px 0;
+    }
+
+    .slick-dots {
+        padding-bottom: 20px !important;
+    }
+
+    .slick-next,
+    .slick-prev {
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+
+    .slick-next {
+        right: 20px;
+    }
+
+    .slick-prev {
+        left: 20px;
+    }
 }

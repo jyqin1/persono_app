@@ -1,47 +1,71 @@
 .site-footer {
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
-    padding: 50px 20px;
-    background-color: #ffffff;
-  }
-  
-  .sleep-message, .subscribe-message {
-    font-size: 1.5rem; 
-    margin: 20px 0; 
-  }
-  
-  .footer-cta form {
+    margin-top: 550px;
+}
+
+.footer-container {
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin: 20px 0;
-  }
-  
-  .footer-cta input[type="email"], .footer-cta button {
-    padding: 10px 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px; 
-  }
-  
-  .footer-cta button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .footer-cta button:hover {
-    background-color: #0056b3;
-  }
-  
-  .social-media a {
-    display: inline-block;
-    margin: 0 10px; 
-    color: #007bff; 
-    font-size: 1rem;
-    text-decoration: none; 
-  }
-  
-  .social-media a:hover {
-    text-decoration: underline; 
-  }
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-brand,
+.footer-nav,
+.footer-contact {
+    margin: 10px;
+}
+
+.footer-brand a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-brand p1 {
+    font-style: bold !important;
+    font-size: 2rem;
+}
+
+.footer-brand img {
+    margin-bottom: 10px;
+}
+
+.footer-nav a,
+.footer-contact a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-nav a:hover,
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .site-footer {
+        margin-top: 750px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-brand,
+    .footer-nav,
+    .footer-contact {
+        margin: 10px auto;
+    }
+
+    .footer-brand img {
+        width: 150px;
+    }
+}

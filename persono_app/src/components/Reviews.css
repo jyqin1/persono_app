@@ -1,40 +1,39 @@
 .reviews-carousel {
-    padding: 40px; /* Increased padding for more space inside the box */
-    margin: 50px auto; /* Increased margin for more space outside the box */
-    padding-bottom: 60px;
-    max-width: 800px; /* Larger width for the box */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    border-radius: 15px; /* Soft edges */
-    background: #ffffff; /* White background */
-    text-align: center; /* Center text alignment */
+  padding: 40px;
+  margin: 50px auto;
+  padding-bottom: 60px;
+  max-width: 800px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.slick-list,
+.slick-track {
+  height: auto;
+}
+
+.slick-dots {
+  display: none;
+}
+
+.slick-slide p {
+  font-size: 1.5rem;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 740px;
+}
+
+@media (max-width: 768px) {
+  .reviews-carousel {
+    max-width: 90%;
+    padding: 60px;
   }
 
-  .slick-list, .slick-track {
-    height: auto; /* Adjust height based on content, might need !important */
+  .slick-slide p {
+    font-size: 1.2rem;
+  }
 }
-  
-  .slick-dots { /* Style for the dots */
-    bottom: -40px; /* Adjust this value as needed to move dots away from the edge */
-  }
-  
-  .slick-slide p { /* Style for the text inside each slide */
-    font-size: 1.5rem; /* Larger font size for the text */
-    color: #333; /* Darker text for better readability */
-    padding: 20px; /* Padding inside each review to avoid text touching the edges */
-    line-height: 1.6; /* Adjust line height for better readability */
-    margin: 0 auto; /* Centering the paragraph */
-    max-width: 740px; /* Maximum width for the text, can be adjusted as needed */
-  }
-  
-  /* Responsive design adjustments */
-  @media (max-width: 768px) {
-    .reviews-carousel {
-      max-width: 90%; /* Adjust width for smaller screens */
-      padding: 60px; /* Adjust padding for smaller screens */
-    }
-  
-    .slick-slide p {
-      font-size: 1.2rem; /* Adjust font size for smaller screens */
-    }
-  }
-  

@@ -80,25 +80,34 @@
 
 @media (max-width: 768px) {
   .features-container {
-    margin-left: 0;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    margin: 0;
   }
 
   .descriptions-container {
-    top: 0;
-    margin-bottom: 60px;
-  }
-
-  .feature-description::before {
-    content: none; 
+    margin-top: 20px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    position: relative;
   }
 
   .feature-description {
-    margin-top: 30px; 
+    margin-top: 30px;
     margin-bottom: 20px;
+    text-align: center;
+    max-width: 300px !important;
+    font-size: 1rem !important;
+  }
+
+  .feature-description::before {
+    content: none !important;
   }
 
   .pillow-image {
-    max-width: 100%; 
+    max-width: 100%;
   }
 }

@@ -21,6 +21,9 @@ const AboutUs = () => {
         <p>
           <strong>Welcome to a future where a great day starts with a great night's sleep – welcome to Persono.</strong>
         </p>
+        <div className="about-us-more-info">
+                <a href="https://persono.com/about-us" className="about-us-button">Learn More About Us</a>
+            </div>
       </div>
     );
   };
