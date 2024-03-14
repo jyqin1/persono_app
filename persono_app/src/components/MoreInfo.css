@@ -1,7 +1,9 @@
 .more-info-carousel {
     box-sizing: border-box;
     text-align: center;
-    padding-bottom: 50px !important;
+    padding-bottom: 60px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .more-info-carousel h2 {
