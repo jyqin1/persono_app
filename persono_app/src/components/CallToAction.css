@@ -7,7 +7,7 @@
   text-align: left;
   padding: 50px 20px;
   position: relative;
-  margin-top: 40px;
+  margin-top: 80px;
   background: linear-gradient(to right, #3798F8, #6140B8, #556268);
 }
 
@@ -79,6 +79,11 @@
   border: 2px solid #ccc;
 }
 
+.email-signup-form input[type="email"]:disabled {
+  background-color: #e7e7e7; 
+  color: #a1a1a1;
+}
+
 .email-signup-form button {
   background-color: #3798F8;
   color: white;
@@ -114,6 +119,12 @@
 .email-signup-form button span {
   position: relative;
   z-index: 1;
+}
+
+.email-signup-form button .checkmark {
+  display: inline-block;
+  margin-left: 5px;
+  color: white; 
 }
 
 @media (max-width: 768px) {
