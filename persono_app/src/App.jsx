@@ -12,12 +12,12 @@ import Steps from './components/Steps';
 import MoreInfo from './components/MoreInfo';
 import Footer from './components/Footer';
 import Waitlist from './components/Waitlist';
-import Modal from './components/Modal'; // Your generic Modal component
+import Modal from './components/Modal'; 
 
 function App() {
   const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
 
-  // Function to toggle the Waitlist modal
+  
   const toggleWaitlist = () => {
     setIsWaitlistOpen(!isWaitlistOpen);
   };
@@ -25,7 +25,6 @@ function App() {
   return (
     <Router>
       <div>
-        {/* Pass toggleWaitlist to Navbar */}
         <Navbar toggleWaitlist={toggleWaitlist} />
         <Routes>
           <Route path="/" element={
@@ -42,9 +41,7 @@ function App() {
               <Footer />
             </>
           } />
-          {/* No need for a separate Waitlist route since it's a modal now */}
         </Routes>
-        {/* Modal for the Waitlist */}
         <Modal isOpen={isWaitlistOpen} onClose={toggleWaitlist}>
           <Waitlist onClose={toggleWaitlist} />
         </Modal>

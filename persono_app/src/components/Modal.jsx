@@ -1,9 +1,7 @@
 import React from 'react';
 import './Modal.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// Import the faTimesCircle from either solid or regular
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
-// Or, for the regular style: import { faTimesCircle } from '@fortawesome/free-regular-svg-icons';
 
 const Modal = ({ children, isOpen, onClose }) => {
     if (!isOpen) return null;

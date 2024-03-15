@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Waitlist.css';
 import personoVideo from '../assets/persono_video.mov';
 
-const Waitlist = ({ onClose }) => { // add onClose prop to be called when submitting
+const Waitlist = ({ onClose }) => {
     const [email, setEmail] = useState('');
     const [submitted, setSubmitted] = useState(false);
 
@@ -10,7 +10,7 @@ const Waitlist = ({ onClose }) => { // add onClose prop to be called when submit
         e.preventDefault();
         console.log(email);
         setSubmitted(true);
-        onClose(); // Close the modal on form submit
+        onClose(); 
     };
 
     return (
