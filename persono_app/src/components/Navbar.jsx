@@ -1,11 +1,9 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom'; 
+import { Link } from 'react-router-dom'; 
 import './Navbar.css';
 import logo from '../assets/logo-black.png';
 
-const Navbar = () => {
-  const location = useLocation(); 
-
+const Navbar = ({ toggleWaitlist }) => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -15,11 +13,7 @@ const Navbar = () => {
           </Link>
 
           <div className="waitlist-container">
-            {location.pathname === '/waitlist' ? (
-              <Link to="/" className="waitlist-button">Go Home</Link> 
-            ) : (
-              <Link to="/waitlist" className="waitlist-button">Join Waitlist</Link> 
-            )}
+            <button onClick={toggleWaitlist} className="waitlist-button">Join Waitlist</button>
           </div>
         </div>
       </div>
