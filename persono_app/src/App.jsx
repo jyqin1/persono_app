@@ -33,8 +33,8 @@ function App() {
               <PillowFeatures />
               <TrackerFeatures />
               <AppFeatures />
-              <Unique />
               <Interlude />
+              <Unique />
               <Interlude2 />
               <Steps />
               <MoreInfo />
